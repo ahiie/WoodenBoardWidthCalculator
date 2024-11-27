@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Image__2019-11-29__13-43-06.bmp" />
     <Content Include="Image__2019-11-29__13-44-27.bmp" />
+    <Content Include="Result.PNG" />
     <Content Include="startingColumn.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
