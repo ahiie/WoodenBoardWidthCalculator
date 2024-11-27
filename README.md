@@ -30,10 +30,10 @@ siis valitakse uus kolonn, mis on eelnevast ette määratud sammu võrra eemal. 
 	- Sammud puulaudade tuvastamiseks ja anomaaliate tühistamiseks on erinevad, et nad teineteist ei neutraliseeriks
 	- Kui puulauda või eralduskohta ei tuvastata, siis võib vähendada samme ja suurendada sammude hulka
 
-5. Peale eralduskoha leaidmist jaotan puulauad kaheks: pildi ülevast servast eralduskohani ning eralduskohast pildi alumise servani.
+5. Peale eralduskoha leidmist jaotan puulauad kaheks: pildi ülevast servast eralduskohani ning eralduskohast pildi alumise servani.
 
-6. Leitud puulauadadele kannan **mõõtepunktid**, mille hulka saab eelnevalt valida. Samuti saab valida, mitut punkti kummagist ekstreemumist ei arvestata.
-	- Kui puulauadade külgedel on vigastatud kohti (sisse lõikeid, mädanikku, vms), siis tasub valida rohkem mõõtepunkte ja eemaldada rohkem ekstreemumeid.
+6. Leitud puulaudadele kannan **mõõtepunktid**, mille hulka saab eelnevalt valida. Samuti saab valida, mitut punkti kummagist ekstreemumist ei arvestata.
+	- Kui puulaudade külgedel on vigastatud kohti (sisse lõikeid, mädanikku, vms), siis tasub valida rohkem mõõtepunkte ja eemaldada rohkem ekstreemumeid.
 	
 7. Kui ekstreemväärtused on eemaldatud, siis võtan ülejäänud mõõtepunktide keskmise ning teisendan selle millimeetritesse. Kordan sama järgneva puulaua puhul.
 
@@ -42,7 +42,7 @@ siis valitakse uus kolonn, mis on eelnevast ette määratud sammu võrra eemal. 
 	- Kui see ei ole piisav, siis peaks pilti eelnevalt töötlema serva tuvastuse põhimõtetel (müra vähendamine, must-valgeks tegemine, kontrasti suurendamine, kontuuride hõrendamine, jne)
 
 9. Eelised:
-	- Väike arvutusresursi nõudlus
+	- Väike arvutusressursi nõudlus
 	- Kiire operatsiooniaeg
 	- Kui puulaudade servad on terved ja ei ole kalde all, siis peaks saama päris täpse tulemuse
 	- Täpsust võimalik parandada muutujate väärtuste valimisega

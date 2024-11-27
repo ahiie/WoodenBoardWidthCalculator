@@ -188,7 +188,7 @@ namespace Katseülesanne_v2
             helperValue = n % 2 == 0 ? 0 : 1;
             helperValue = n == 1 ? 0 : helperValue;
 
-            // Uus kolonn valitakse n sammu kaugusel ja suund on -1 asteml n
+            // Uus kolonn valitakse n sammu kaugusel ja suund on -1 astmel n
             return column += step * (n - helperValue) * (int)Math.Pow(-1, n);
         }
 
