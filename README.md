@@ -1,11 +1,11 @@
 ﻿# Katseülesanne
----
+
 ### Leida pildil oleva puulaua laius ning kirjeldada selle tulemuse täpsust.
 
 #### Ühte millimeetrisse mahub täpselt 10 pikslit, ehk 1 piksli kohta on 0,1mm.
 
 ## Lahendus
----
+
 Antud pilte lähemalt uurides lähtun järgnevatest eeldustest:
 
 	* Lauad liiguvad liinil kaamerapildist läbi sirgjooneliselt või ligilähedaselt
@@ -16,7 +16,7 @@ Antud pilte lähemalt uurides lähtun järgnevatest eeldustest:
 1. Esmalt valin **algkolonni** ehk asukoha, mis kattub puulaudadega ja on nende suhtes võimalikult keskel.
 Nende kahe pildi alusel võtsin selleks 1000 piksli kauguse pildi vasakust äärest:
 
-[Image with the starting column highlighted](startingColumn.jpg)
+![Image with the starting column highlighted](startingColumn.jpg)
 
 2. Valitud kolonnist otsin pikslite **valgustugevuse väärtust** kuniks leian ühe, mis on alla ette antud piirväärtuse ehk piisavalt tuhm.
 Selle leidmisel kontrollin ka järgmise piksli ning sellega ühes reas olevate pikslite väärtust, et vältida oksakohti või muid anomaaliaid.
@@ -43,11 +43,11 @@ siis valitakse uus kolonn, mis on eelnevast ette määratud sammu võrra eemal. 
 
 
 ## Vastus
----
+
 Tulemuse ümardan 0.1mm täpsusega.
 
 Pildi "Image__2019-11-29__13-43-06.bmp" puhul sain puulaudade laiused järgnevad:
-- Esimene puulaud 41.7mm
-- Teine puulaud 40.6mm
+- Esimese puulaua laius on 41.7mm
+- Teise puulaua laius on 40.6mm
 
-[Result](Result.PNG)
+![Result](Result.PNG)
