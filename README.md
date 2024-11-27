@@ -41,6 +41,18 @@ siis valitakse uus kolonn, mis on eelnevast ette määratud sammu võrra eemal. 
 	- Kui suurem täpsus on oluline, siis annaks parandada tulemust kontrollides õigete andmetega ning määrates täpse piksli, kust puulaud algab. Praegu võib lauda ümbritsev kuma jääda mõõtetulemusse sisse.
 	- Kui see ei ole piisav, siis peaks pilti eelnevalt töötlema serva tuvastuse põhimõtetel (müra vähendamine, must-valgeks tegemine, kontrasti suurendamine, kontuuride hõrendamine, jne)
 
+9. Eelised:
+	- Väike arvutusresursi nõudlus
+	- Kiire operatsiooniaeg
+	- Kui puulaudade servad on terved ja ei ole kalde all, siis peaks saama päris täpse tulemuse
+	- Täpsust võimalik parandada muutujate väärtuste valimisega
+
+10. Puudused:
+	- Skaleeritavus ehk kui oleks rohkem infot vaja puulaudadest (pindala koos deformatsioonidega vms), siis oleks tõenäoliselt mõistlikum teha kohe lahendus üldise piirituvastusega.
+	- Kui lauad peaksid tulema suure nurga all, siis sellega programm ei arvesta
+	- Suurte defektide puhul annab samuti tõenäoliselt vale tulemuse, kui piisavalt ekstreemumeid ei eirata
+	- Ei võimalda tuvastada laiusi, kui piltidele võib sattuda üle kahe laua
+
 
 ## Vastus
 
