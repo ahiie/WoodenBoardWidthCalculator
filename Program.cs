@@ -59,7 +59,7 @@ namespace Katseülesanne_v2
                     int intensity = getPixelIntensity(image, columnToStart, row);
 
                     // Juhul kui algselt määratud kolonn ei kattu puulauaga
-                    if (intensity < 0 && !foundColumn && counterNotFound < 15)
+                    if (intensity < itensityTresholdHorizontal && !foundColumn && counterNotFound < 15)
                     {
                         columnToStart = SearchNewColumn(counterNotFound, stepColumnCorrection, columnToStart);
 
